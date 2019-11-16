@@ -7,7 +7,7 @@ html, body {
 }
 
 body {
-  /* animation: fadein 1s; */
+  animation: fadein 1s;
 }
 
 @keyframes fadein {
@@ -152,19 +152,4 @@ h3 {
 }
 @media(min-width:992px){}
 @media(min-width:1200px){}
-
-
-@media only screen and (orientation: portrait) {
-  body {
-    /* animation: fadeout 1s; */
-    animation: fadein 1s;
-  }
-
-}
-@media only screen and (orientation: landscape) {
-  body > * {
-    /* animation: fadeout 5s; */
-    animation: fadein 1s;
-  }
-}
 
