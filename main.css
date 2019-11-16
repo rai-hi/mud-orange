@@ -127,7 +127,7 @@ h3 {
     left: 1px;
     text-align: left;
     
-    font-size: 14px;
+    font-size: 13.96px;
     top: 5px;
   }
   .logo-svg {
@@ -139,7 +139,7 @@ h3 {
 }
 @media(min-width:850px){
   .subline {
-    font-size: 19.5px;
+    font-size: 19.45px;
     position: relative;
     top: -1px;
   }
