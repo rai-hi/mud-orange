@@ -94,6 +94,9 @@ h3 {
 }
 
 @media(min-width:576px){
+  body {
+    padding: 2rem;
+  }
   .mobile {
     display: none;
   }
@@ -103,7 +106,35 @@ h3 {
   h2,h3 {
     display: inline;
   }
+  .subline {
+    font-size: 8.8pt;
+    position: relative;
+    top: 5px;
+    line-height: 0;
+    left: -49px;
+    text-align: center;
+  }
+  .logo {
+    font-size: 76pt;
+    line-height: 0;
+  }
 }
-@media(min-width:768px){}
+@media(min-width:850px){
+  .subline {
+    font-size: 13.25pt;
+    position: relative;
+    top: 11px;
+    line-height: 0;
+    left: 7px;
+    text-align: left;
+  }
+  .logo {
+    font-size: 112pt;
+    line-height: 0;
+  }
+  .contact > * {
+    display: inline;
+  }
+}
 @media(min-width:992px){}
 @media(min-width:1200px){}
