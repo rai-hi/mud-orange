@@ -1,5 +1,5 @@
 html, body {
-  height: 96vh;
+  height: 92vh;
   margin: 0;
   font-family: sofia-pro,sans-serif;
   font-weight: 700;
@@ -154,3 +154,8 @@ h3 {
 @media(min-width:992px){}
 @media(min-width:1200px){}
 
+@media(min-height:650px){
+  html, body {
+    height: 97vh;
+  }
+}
