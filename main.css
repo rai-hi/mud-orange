@@ -35,6 +35,7 @@ body {
   font-size: 1rem;
   font-weight: 200;
   font-style: italic;
+  margin-bottom: auto;
 }
 
 .asterisk {
@@ -51,7 +52,7 @@ body {
 }
 
 .hero {
-  margin-top: 7rem;
+  margin-top: auto;
 }
 
 h1 {
@@ -89,6 +90,7 @@ h3 {
 }
 
 .contact {
+  margin-top: auto;
   font-weight: 200;
   font-size: 1rem;
 }
